@@ -4,7 +4,7 @@ body{
 
 #papel{
     background-color: white;
-    height: 170vh;
+    height: 200vh;
     padding : 0;
 }
 
@@ -17,10 +17,6 @@ body{
     padding: 0%;
 }
 
-#contenidoA{
-   
-    background-color: white;
-}
 
 #logoCFE{
     padding-top:10%;
@@ -47,12 +43,22 @@ body{
    
 }
 
+#contenidoA{
+    height: 18.5vh;
+}
+
+
 #contenidoB{
-    background-color: white;
+    height: 22.5;
 }
 
 #contenidoC{
-    height:40vh;
+    height:65vh;   
+}
+
+#contenidoD{
+    height: 50vh;
+
 }
 
 #secB1{
@@ -296,8 +302,11 @@ width: 10vw;
 
     margin-left: 2vw;
     margin-right: 2vw;
+   
     
     height: 55vh;
+
+   
 }
 
 
@@ -353,7 +362,6 @@ width: 10vw;
 #seccionC2{
     height: 2vh;
   
-    
 }
 
 #Minitabla{
@@ -379,31 +387,108 @@ width: 10vw;
 
     margin-top: 3.25vh;
     
-
 }
 
 #info_grafico{
 
     font-size: 1em;
-    margin-top: -3vh;
+    margin-bottom: -3vh;
+    margin-left: 10vw;
 
     text-align: center;
     justify-content: center;
 }
 
+#visuales{
+    display: flex;
+    align-items: center;
+    gap: -10vw;
+    margin-bottom: -7vh;
+}
 
+#casita{
+    height: auto;
+    
+    width: clamp(0.2vw , 3vw , 4vw);
+}
 
 #grafico{
-
-  color:  rgb(17, 126, 90);
-  font-size: 4em;
-  text-align: center;
-  justify-content: center;
-
+  flex-grow: 1;
   margin-left: 5vh;
-  width: 40vw;
+  
   height: 3vh;
   background: linear-gradient(to right, rgb(81, 212, 81),  rgb(19, 92, 19),  rgb(209, 176, 43), orange, rgb(94, 3, 3));
   border-radius: 1vw;
   
+}
+
+#TitulosA{
+    border-radius: 1vw 1vw 0vw 0vw;
+
+    background-color: rgb(17, 126, 90);
+
+    color: white;
+    height: 7vh;
+
+    margin-left: 2vw;
+    margin-right: -1vw;
+    margin-top: -0.8vw;
+
+    text-align: center;
+    justify-content: center;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#tTA{
+
+
+    box-shadow: 0vw 0vw 0.2vw 0vw #aaaaaa;
+    border-radius: 0vw 0vw 1vw 1vw;
+
+    background-color: white;
+
+    margin-left: 2vw;
+    margin-right: 2vw;
+   
+    width: 27.7vw;
+    height: 40vh;
+}
+
+#TitulosB{
+    border-radius: 1vw 1vw 0vw 0vw;
+
+    background-color: rgb(17, 126, 90);
+
+    color: white;
+    height: 7vh;
+
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    margin-top: -0.8vw;
+
+
+    text-align: center;
+    justify-content: center;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#tTB{
+
+
+    box-shadow: 0vw 0vw 0.2vw 0vw #aaaaaa;
+    border-radius: 0vw 0vw 1vw 1vw;
+
+    background-color: white;
+
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+   
+    width: clamp(2vw , 17.6vw , 17.6vw);
+    height: clamp(10vh , 40vh , 40vh);
 }

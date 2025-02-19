@@ -57,7 +57,7 @@ body{
 }
 
 #txtB5_1 .tarifa_n{
-    font-size: clamp(0.05vw , 0.7vw, 1.2vw);
+    font-size: clamp(0.05vw , 0.75vw, 1.2vw);
 }
 
 #txtB5_2 .medidor{
@@ -65,9 +65,34 @@ body{
 }
 
 #txtB5_2 .num_medidor{
-    color:red;
-    font-size: clamp(0.05vw , 0.7vw, 1.2vw);
+    font-size: clamp(0.05vw , 0.75vw, 1.2vw);
 }
+
+#txtB5_3 .multiplicador{
+    font-size: clamp(0.2vw , 0.8vw, 1.5vw);
+}
+#txtB5_3 .n_multiplicador{
+    
+    font-size: clamp(0.05vw , 0.75vw, 1.2vw);
+}
+
+#txtB6_1 .limite_pago{
+    
+    font-size: clamp(0.2vw , 0.9vw, 1.4vw);
+}
+
+#txtB6_1 .fecha_limite{
+    font-size: clamp(0.15vw , 0.82vw, 1.35vw);
+}
+
+#txtB6_2 .corte_pago{
+    font-size: clamp(0.2vw , 0.9vw, 1.4vw);
+}
+
+#txtB6_2 .fecha_corte{
+    font-size: clamp(0.15vw , 0.82vw, 1.35vw);
+}
+
 
 
 

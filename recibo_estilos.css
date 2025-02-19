@@ -110,11 +110,21 @@ body{
 }
 
 #txtB1 .nombre{
-    font-size: clamp(0.2vw , 1.5em, 4vw)
+    font-size: clamp(0.2vw , 1.4vw, 4vw)
 }
 
 #txtB1 .direccion{
-    font-size: clamp(0.1vw , 1.15em, 3vw)
+    font-size: clamp(0.1vw , 1vw, 3vw)
+}
+
+#secB2 .totalPagar{
+    font-size: clamp(0.2vw , 1.2vw, 2vw)
+}
+#secB2 .cifraPagar{
+    font-size: clamp(0.1vw , 2.5vw, 3.5vw)
+}
+#secB2 .cifraTexto{
+    font-size: clamp(0.1vw , 1vw, 2vw)
 }
 
 

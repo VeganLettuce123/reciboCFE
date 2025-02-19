@@ -65,6 +65,7 @@ body{
 }
 
 #txtB5_2 .num_medidor{
+    color:red;
     font-size: clamp(0.05vw , 0.7vw, 1.2vw);
 }
 

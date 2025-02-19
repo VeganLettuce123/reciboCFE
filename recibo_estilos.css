@@ -52,6 +52,26 @@ body{
 }
 
 
+#txtB5_1 .tarifa{
+    font-size: clamp(0.2vw , 0.8vw, 2vw);
+}
+
+#txtB5_1 .tarifa_n{
+    font-size: clamp(0.2vw , 0.8vw, 2vw);
+}
+
+#txtB5_2 .medidor{
+    font-size: clamp(0.2vw , 0.8vw, 2vw);
+}
+
+#txtB5_2 .num_medidor{
+    font-size: clamp(0.2vw , 0.8vw, 2vw);
+}
+
+
+
+
+
 
 #papel{
     background-color: white;

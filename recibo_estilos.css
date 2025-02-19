@@ -31,8 +31,6 @@ body{
 
     min-width: 2vw;
     min-height: 2vh;
-
-    
 }
 #acercaCFE{
     text-align: left;
@@ -270,4 +268,10 @@ body{
 
 #tp{
     margin-left: -6vw;
+    margin-right: -5vw;
+}
+
+#stp{
+    width: 3vw;
+    margin-left: -3vw;
 }

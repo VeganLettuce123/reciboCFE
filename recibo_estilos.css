@@ -53,19 +53,19 @@ body{
 
 
 #txtB5_1 .tarifa{
-    font-size: clamp(0.2vw , 0.8vw, 2vw);
+    font-size: clamp(0.2vw , 0.8vw, 1.5vw);
 }
 
 #txtB5_1 .tarifa_n{
-    font-size: clamp(0.2vw , 0.8vw, 2vw);
+    font-size: clamp(0.05vw , 0.7vw, 1.2vw);
 }
 
 #txtB5_2 .medidor{
-    font-size: clamp(0.2vw , 0.8vw, 2vw);
+    font-size: clamp(0.2vw , 0.8vw, 1.5vw);
 }
 
 #txtB5_2 .num_medidor{
-    font-size: clamp(0.2vw , 0.8vw, 2vw);
+    font-size: clamp(0.05vw , 0.7vw, 1.2vw);
 }
 
 

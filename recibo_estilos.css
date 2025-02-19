@@ -29,6 +29,7 @@ body{
 #txtB3 .invisTxt1{
     font-size: clamp(0.2vw , 1vw , 1.75vw);
     color: rgba(249, 249, 249, 0.885);
+    color: red;
 }
 
 #txtB3 .servicio{

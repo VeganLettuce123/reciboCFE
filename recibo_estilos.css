@@ -43,7 +43,8 @@ body{
     max-height: 20vh;
     max-width: 20vw;
 
-    font-size: 0.9rem;
+    font-size: clamp(0.2rem , 0.8vw , 2rem);
+   
 }
 
 #contenidoB{
@@ -51,7 +52,7 @@ body{
 }
 
 #contenidoC{
-    height:120vh;
+    height:40vh;
 }
 
 #secB1{
@@ -230,10 +231,12 @@ body{
 
 
 #Titulos{
+    
 
     border-radius: 1vw 1vw 0vw 0vw;
 
     background-color: rgb(17, 126, 90);
+
     color: white;
     height: 7vh;
 
@@ -248,30 +251,159 @@ body{
 }
 
 #concepto{
-    margin-left: 2vw;
-    margin-right: -3.75vw;
+    margin-left: 1vw;
+    margin-right: -6vw;
     width: 5vw;
 }
 
 #la {
     margin-left: -4vw;
-    margin-right: -9vw;
+    margin-right: -12vw;
     width: 10vw;
 
 }
 
 #lat{
-    margin-left:0vw;
+    
     margin-right: -5vw;
     width: 10vw;
 }
 
 #tp{
-    margin-left: -6vw;
+    margin-left: -8.25vw;
     margin-right: -5vw;
 }
 
 #stp{
-    width: 3vw;
-    margin-left: -3vw;
+    width: 5vw;
+    margin-left: -4vw;
+}
+
+#dfv{
+padding-top: -10%;
+margin-right: 2vw;
+margin-left: -10vw;
+margin-top: -0.5vw;
+width: 10vw;
+
+}
+
+#TablasInfo{
+    box-shadow: 0vw 0vw 0.2vw 0vw #aaaaaa;
+    border-radius: 0vw 0vw 1vw 1vw;
+
+    background-color: white;
+
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+    height: 55vh;
+}
+
+
+#ti_publicidad{
+    width: 25vw;
+    height: 15vw;
+    border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+    display: flex;
+
+    margin-top : 2vh;
+    margin-left: 1vh;
+}
+
+.r1{
+    margin-left: 1vw;
+
+    width: 44vw;
+    height: 1vh;
+}
+
+.r2{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    margin-top: -5vh;
+    margin-left: 1vw;
+    
+    width: 44vw;
+    height: 2.5vh;
+}
+
+
+.r3{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    margin-top: -8vh;
+    margin-left: 1vw;
+    
+    width: 44vw;
+    height: 2.5vh;
+}
+
+
+#seccionC1{
+ 
+   margin-top : -20vh;
+   height: 32vh;
+   
+  
+}
+
+#seccionC2{
+    height: 2vh;
+  
+    
+}
+
+#Minitabla{
+  
+    background-color:  rgb(17, 126, 90);
+    margin-left: 15vh;
+    margin-top: 4vh;
+
+    width: 15vw;
+    height: 5vh;
+
+
+    text-align: center;
+    justify-content: center;
+}
+
+
+.r4{
+    background-color: rgba(249, 249, 249, 0.885);
+ 
+    width: 15.2vw;
+    height: 3vh;
+
+    margin-top: 3.25vh;
+    
+
+}
+
+#info_grafico{
+
+    font-size: 1em;
+    margin-top: -3vh;
+
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+#grafico{
+
+  color:  rgb(17, 126, 90);
+  font-size: 4em;
+  text-align: center;
+  justify-content: center;
+
+  margin-left: 5vh;
+  width: 40vw;
+  height: 3vh;
+  background: linear-gradient(to right, rgb(81, 212, 81),  rgb(19, 92, 19),  rgb(209, 176, 43), orange, rgb(94, 3, 3));
+  border-radius: 1vw;
+  
 }

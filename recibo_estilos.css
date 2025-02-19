@@ -1,0 +1,273 @@
+body{
+    background-color: rgb(82 , 86 , 89);
+}
+
+#papel{
+    background-color: white;
+    height: 170vh;
+    padding : 0;
+}
+
+#break_papel{
+    height: 100vh;
+}
+#ndColor{
+    background-color: rgb(17, 126, 90);
+    height: 1.1%;
+    padding: 0%;
+}
+
+#contenidoA{
+   
+    background-color: white;
+}
+
+#logoCFE{
+    padding-top:10%;
+    padding-left:10%;
+
+    max-width:20vw;
+    max-height: 20vh;
+
+    min-width: 2vw;
+    min-height: 2vh;
+
+    
+}
+#acercaCFE{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 2%;
+    
+    min-width: 2vw;
+    min-height: 2vh;
+
+    max-height: 20vh;
+    max-width: 20vw;
+
+    font-size: 0.9rem;
+}
+
+#contenidoB{
+    background-color: white;
+}
+
+#contenidoC{
+    height:120vh;
+}
+
+#secB1{
+  
+    margin-left:-2% ;
+    height: 19vh;   
+   
+}
+
+#secB2{
+   margin-left: -1%;
+    height: 19vh;
+ 
+}
+
+#secB3{
+    margin-left: -2%;
+    height: 8.5vh;
+}
+
+#secB4{
+    margin-left: -1%;
+    height: 8.5vh;
+}
+
+#secB5{
+   margin-left: -2%;
+   height: 8vh;
+}
+
+#secB6{
+   margin-left: -1%;
+    height: 8vh;
+}
+
+#txtB1{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    margin-left: 12%;
+    padding-left: 1%;
+    
+    text-align: left;
+    height:18vh;
+
+    border-radius: 1vw 0vw  0vw  0vw;
+    
+}
+
+#txtB2{
+
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-left: 2%;
+    padding-top:2%;
+    margin-left: -1%;
+    margin-right: 5%;
+   
+    text-align: left;
+    height: 18vh;
+
+    border-radius: 0vw  1vw 0vw 0vw;
+}
+
+#txtB3{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-left: 1%;
+    padding-top:2%;
+    margin-left: 12%;
+
+    text-align: left;
+    height: 8vh;
+
+  
+}
+#txtB4{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: -1%;
+
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    height: 8vh;
+}
+
+
+#txtB5_1{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-top:2%;
+    padding-left: 2%;
+    
+    margin-top: 0.5vh;
+    margin-left: 4vw;
+    
+   text-align: left;
+
+    height: 5vh;
+    border-radius: 0vw  0vw 0vw 1vw;
+}
+
+#txtB5_2{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-top:2%;
+
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+    text-align: left;
+    height: 5vh;
+    width: 10.55vw;
+}
+
+#txtB5_3{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-top:10px;
+    margin-top: 0.5vh;
+
+    text-align: left;
+    height: 5vh;
+    width: 8.75vw;
+
+}
+
+#txtB6_1{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-top: 4.5%;
+    margin-top: 0.5vh;
+    margin-left:0.4vw;
+    margin-right: 0.5vw;
+
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ 
+
+    width: 9.5vw;
+    height: 5vh;
+}
+
+#txtB6_2{
+    background-color: rgba(249, 249, 249, 0.885);
+    box-shadow: 0vw 0vw 0.1vw 0vw #aaaa ;
+
+    padding-top: -2%;
+    margin-top: 0.5vh;
+
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    width: 9.5vw;
+    height: 5vh;
+    border-radius: 0vw 0vw 1vw 0vw;
+}
+
+
+#Titulos{
+
+    border-radius: 1vw 1vw 0vw 0vw;
+
+    background-color: rgb(17, 126, 90);
+    color: white;
+    height: 7vh;
+
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: -0.8vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    
+}
+
+#concepto{
+    margin-left: 2vw;
+    margin-right: -3.75vw;
+    width: 5vw;
+}
+
+#la {
+    margin-left: -4vw;
+    margin-right: -9vw;
+    width: 10vw;
+
+}
+
+#lat{
+    margin-left:0vw;
+    margin-right: -5vw;
+    width: 10vw;
+}
+
+#tp{
+    margin-left: -6vw;
+}
